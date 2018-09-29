@@ -161,8 +161,8 @@ body, {
 }
 
 @media screen and (max-width : 980px) {
-    .main-header, .main-content, .main-content-para {
-        width : 960px; 
+    .main-header, .main-content,.main-section, .main-section-para {
+        width : 80%; 
     }   
     .portfolio-pic {
         width :300px;
@@ -171,12 +171,15 @@ body, {
     .note {
         width : 300px;
     }             
-
 }
 
 @media screen and (max-width : 768px) {
-    .main-header, .main-content,.main-content-para {
-        width : 768px; 
+    .clearfix {
+        overflow: auto;
+    }
+    .main-header, .main-content,.main-section, .main-section-para {
+        width : 80%; 
+        overflow : auto;
     }   
     .portfolio-pic {
         width :180px;
@@ -188,8 +191,12 @@ body, {
 }
 
 @media screen and (max-width : 640px) {
-    .main-header, .main-content, .main-content-para {
-        width : 640px; 
+    .clearfix {
+        overflow: auto;
+    }
+    .main-header, .main-content,.main-section, .main-section-para {
+        width : 80%; 
+        overflow : auto;
     }   
     .portfolio-pic {
         width : 100px;
