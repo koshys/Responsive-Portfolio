@@ -1,0 +1,201 @@
+body, {
+    font-family : 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.main-header, .main-content {
+    width : 960px;
+    margin : auto;
+
+    
+}
+
+.main-header {
+    background-color: #ffffff;  
+    border-color : #cccccc;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+#name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    float : left;
+    padding : 20px;
+    text-align: center;
+    font-size: 18pt;    
+}
+
+#empty {
+    padding : 30px 420px 37px 30px;
+    float : left;
+}
+
+.nav {
+    float : left;
+    padding-left : 20px;
+}
+
+#main-header-nav-ul {
+    list-style-type: none;
+    justify-content: left;
+}
+
+.link {
+    float : left;      
+}
+
+.nav-a {
+    text-decoration : none;
+    padding : 20px 10px 20px 20px;
+    text-align: center;
+    color :#777777;
+    font-family : 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.nav-a:hover, .para-link:hover {
+    text-decoration : underline;
+}
+
+.header {
+    color : #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size : 17pt;
+    border-bottom-color: #777777;
+    padding-bottom: 5px;
+    border-width: 0px 0px 5px 0px;
+    border-style: solid;   
+}
+
+.footer {
+    background-color: #666666;
+    text-align: center;
+    color: #777777;
+    padding-top : 25px;
+    border-top-color : #4aaaa5;
+    border-width: 10px 0px 0px 0px;
+    border-style: solid;
+}
+
+.main-content {
+    background-color: #ffffff; 
+    padding : 10px 10px 10px 10px;  
+    border-color: #dddddd;   
+}
+
+.content {
+    clear : both;
+    background-image: url('../images/gravel.png');
+    padding-top : 20px;
+    padding-bottom : 20px;
+}
+
+.main-section {
+    background-color : #ffffff;
+    color: #777777;
+}
+
+#pic-profile {
+    float : left;
+    padding : 0px 10px 10px  0px
+}
+
+.contact-label, #contact-message {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    padding-top: 15px;
+    color: #777777;    
+}
+
+.contact-input {
+    width: 95%;
+    height: 40px;
+    color: #777777;
+    padding: 5px;
+    font-size: 12px;
+}
+
+#contact-message {
+    height : 200px;
+    width: 95%;    
+}
+
+#contact-submit {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 16px;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.para-link {
+    text-decoration : none;
+    font-family : 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color : #777777;
+}
+
+.portfolio-pic {
+    width :300px;
+    height: 300px;
+}
+
+.portfolio-band {
+    position : relative;
+}
+
+.note {
+    position : absolute;
+    bottom : 10px;
+    color : #ffffff;
+    font-family : 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size : 14pt;
+    text-align: center;
+    width : 300px;
+    background-color: #4aaaa5;
+    padding : 10px 0px 10px 0px;
+}
+
+@media screen and (max-width : 980px) {
+    .main-header, .main-content, .main-content-para {
+        width : 960px; 
+    }   
+    .portfolio-pic {
+        width :300px;
+        height: 300px;
+    } 
+    .note {
+        width : 300px;
+    }             
+
+}
+
+@media screen and (max-width : 768px) {
+    .main-header, .main-content,.main-content-para {
+        width : 768px; 
+    }   
+    .portfolio-pic {
+        width :180px;
+        height: 180px;
+    }   
+    .note {
+        width : 180px;
+    } 
+}
+
+@media screen and (max-width : 640px) {
+    .main-header, .main-content, .main-content-para {
+        width : 640px; 
+    }   
+    .portfolio-pic {
+        width : 100px;
+        height: 100px;
+    } 
+    .note {
+        width : 100px;
+    }            
+}
